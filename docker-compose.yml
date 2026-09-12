@@ -339,6 +339,8 @@ services:
     profiles:
       - codex-app-server
 volumes:
+  omniroute-data:
+    name: omniroute-data
   chatgpt-web-codex-browser-data:
     name: omniroute-chatgpt-web-codex-browser-data
   cliproxyapi-data:
